@@ -1,16 +1,56 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and customizable password generator built with React and Vite. Easily generate secure passwords with adjustable length and options for including numbers and special characters.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Adjustable password length (6–100 characters)
+- Option to include numbers
+- Option to include special characters
+- One-click copy to clipboard
+- Responsive and clean UI styled with Tailwind CSS
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the ESLint configuration
+- [Node.js](https://nodejs.org/) (v16 or newer recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/RoshaKumar9421/passwordgenerator.git
+   cd passwordgenerator
+   
+   2.Install dependencies:-
+       npm install
+Running the App
+Start the development server:
+  npm run dev
+
+Open http://localhost:5173 in your browser.
+
+Building for Production
+To build the app for production:
+  npm run build
+
+To preview the production build:
+   npm run preview
+
+Project Structure:-
+├── public/
+├── src/
+│   ├── [App.jsx](http://_vscodecontentref_/1)
+│   ├── [main.jsx](http://_vscodecontentref_/2)
+│   ├── [index.css](http://_vscodecontentref_/3)
+│   └── assets/
+├── [index.html](http://_vscodecontentref_/4)
+├── [package.json](http://_vscodecontentref_/5)
+├── [vite.config.js](http://_vscodecontentref_/6)
+└── ...
+
+License
+This project is licensed under the MIT License.
+
